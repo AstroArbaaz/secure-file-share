@@ -1,0 +1,33 @@
+{
+  "name": "secure-file-share",
+  "version": "1.0.0",
+  "description": "A peer-to-peer secure file sharing platform ( Prototype Stage )",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstroArbaaz/secure-file-share.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AstroArbaaz/secure-file-share/issues"
+  },
+  "homepage": "https://github.com/AstroArbaaz/secure-file-share#readme",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "mongoose": "^7.5.0",
+    "peer": "^1.0.1",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
